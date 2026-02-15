@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ER.RAHMOUNI Meriem</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <i id="menu-toggle">☰</i>
+        <a href="index.html" class="logo">
+             <img src="logo_pro-removebg-preview.png"  alt="ER.RAHMOUNI Meriem"></a>
+        <nav class="navbar">
+            <a href="index.html" style="color: rgb(224, 218, 218);"><b style="font-family: 'Courier New', Courier, monospace;">Accueil</b></a>
+            <a href="about.html" style="color: rgb(224, 218, 218);" ><b style="font-family: 'Courier New', Courier, monospace;" >À Propos</b></a>
+            <a href="competences.html" style="color: rgb(224, 218, 218); " ><b style="font-family: 'Courier New', Courier, monospace;">Compétences</b></a>
+            <a href="projets.html" style="color: rgb(224, 218, 218);" ><b style="font-family: 'Courier New', Courier, monospace;">Projets</b></a>
+            <a href="contact.html" class="btn-contact" style="color: rgb(224, 218, 218);"><b style="font-family: 'Courier New', Courier, monospace;">Contact</b></a>
+            <button id="theme-toggle">🌙</button>
+        </nav>
+        
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <br><br><br><br><br><br><br><br><h3 style="font-family: 'Courier New', Courier, monospace;color:  #666;">Bonjour, je suis</h3>
+            <h1 style="font-family: 'Courier New', Courier, monospace;">ER.RAHMOUNI Meriem</h1>
+            <h3 style="font-family: 'Courier New', Courier, monospace;">Etudiante en ingénieurie Big Data et Systèmes d'informations .</h3>
+            <p style="font-size: 23px;font-family: 'Courier New', Courier, monospace;color:  #666;"> 
+           Étudiante en ingénierie Big Data & SI, je me consacre à l'art de structurer, stocker et valoriser la donnée. Mon parcours académique et mes projets personnels visent bien la création de systèmes d'informations robustes <br>
+                et de l'exploitation algorithmique des données.</b></p>
+                <div class="hero-buttons">
+                    <a href="projets.html" class="btn btn-primary" style="font-family: 'Courier New', Courier, monospace;">Voir mes projets</a>
+                    <a href="cv pro.pdf" class="btn btn-outline" download target="_blank" style="font-family: 'Courier New', Courier, monospace;">Télecharger mon CV</a>
+                    
+                </div>
+            <div class="social-media">
+                <a href="https://github.com/meriemerrahmouni06-debug" style="color: rgb(42, 40, 117);"><i aria-label="Mon profil GitHub" target="_blank" class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/meriem-er-rahmouni-44a47b355?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                style="color: rgb(42, 40, 117);"><i  aria-label="Mon profil LinkedIn" target="_blank" class='bx bxl-linkedin'></i></a>
+                <a href="mailto:meriemerrahmouni06@gmail.com" style="color: rgb(42, 40, 117);" 
+                 target="_blank" class='bx bx-envelope'></a>
+            </div>
+         
+        </div>
+        <div class="home-img">
+            <img src="picture cv .jpeg" alt="ER.RAHMOUNI Meriem">
+        </div>
+    </section>
+<script src="theme.js"></script>
+<script>
+  const menuToggle = document.getElementById("menu-toggle");
+  const navbar = document.querySelector(".navbar");
+
+  menuToggle.addEventListener("click", () => {
+    navbar.classList.toggle("active");
+  });
+</script>
+</body>
+</html>

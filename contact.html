@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ER.RAHMOUNI Meriem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+       <header class="header">
+         <i id="menu-toggle">☰</i>
+        <a href="index.html" class="logo">
+             <img src="logo_pro-removebg-preview.png"  alt="ER.RAHMOUNI Meriem"></a>
+        <nav class="navbar">
+            <a href="index.html" style="color: rgb(224, 218, 218);"><b style="font-family: 'Courier New', Courier, monospace;">Accueil</b></a>
+            <a href="about.html" style="color: rgb(224, 218, 218);" ><b style="font-family: 'Courier New', Courier, monospace;">À Propos</b></a>
+            <a href="competences.html" style="color: rgb(224, 218, 218); " ><b style="font-family: 'Courier New', Courier, monospace;">Compétences</b></a>
+            <a href="projets.html" style="color: rgb(224, 218, 218);" ><b style="font-family: 'Courier New', Courier, monospace;">Projets</b></a>
+            <a href="contact.html" class="btn-contact" style="color: rgb(224, 218, 218);"><b style="font-family: 'Courier New', Courier, monospace;">Contact</b></a>
+            <button id="theme-toggle">🌙</button>
+        </nav>
+       
+    </header>
+  <section class="contact" id="contact">
+    <h2 style="font-family: 'Courier New', Courier, monospace;" class="heading"><b>Me </b><span><b>Contacter</b></span></h2>
+
+    <form action="https://formspree.io/f/ton_id_ici" method="POST">
+        <div class="input-box">
+            <input style="font-family: 'Courier New', Courier, monospace;" type="text" name="nom" placeholder="Nom complet" required>
+            <input style="font-family: 'Courier New', Courier, monospace;" type="email" name="email" placeholder="Adresse Email" required>
+        </div>
+        <div class="input-box">
+            <input style="font-family: 'Courier New', Courier, monospace;"type="text" name="telephone" placeholder="Numéro de téléphone">
+            <input style="font-family: 'Courier New', Courier, monospace;" type="text" name="sujet" placeholder="Sujet de votre message">
+        </div>
+        <textarea style="font-family: 'Courier New', Courier, monospace;" name="message" cols="20" rows="8" placeholder="Votre Message" required></textarea>
+        <button style="font-family: 'Courier New', Courier, monospace;" type="submit" class="btn btn-primary"><p style="font-family: 'Courier New', Courier, monospace;">Envoyer le message</p></button>
+        
+</section>  
+<script src="theme.js"></script>
+<script src="contact.js"></script>
+<script>
+  const menuToggle = document.getElementById("menu-toggle");
+  const navbar = document.querySelector(".navbar");
+
+  menuToggle.addEventListener("click", () => {
+    navbar.classList.toggle("active");
+  });
+</script>
+</body>
+</html>
