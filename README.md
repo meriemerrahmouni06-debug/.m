@@ -27,21 +27,21 @@ It is designed with a clean layout, responsive design and easy navigation so vis
 ------------------------------------------------------------------
 ## 🧠 What I Learned
 During this project I learned:
--> Frontend Development
--> Structuring a real website using semantic HTML
--> Organizing CSS files and using reusable classes
--> Creating responsive layouts with media queries
--> Fixing navbar overlapping problems
--> Positioning elements correctly
--> Problem Solving
--> Debugging layout issues
--> Understanding how browsers render elements
--> Improving UI clarity and spacing
--> Git & GitHub
--> Dark / Light mode toggle
--> Creating repositories
--> Commits and updates
--> Hosting a website using GitHub Pages
+- Frontend Development
+- Structuring a real website using semantic HTML
+- Organizing CSS files and using reusable classes
+- Creating responsive layouts with media queries
+-  Fixing navbar overlapping problems
+-  Positioning elements correctly
+-  Problem Solving
+-  Debugging layout issues
+-  Understanding how browsers render elements
+-  Improving UI clarity and spacing
+-  Git & GitHub
+-  Dark / Light mode toggle
+-  Creating repositories
+-  ommits and updates
+-  Hosting a website using GitHub Pages
 ---------------------------------------------------------------------
 ## 🚀 Future Improvements
 This project can be improved by adding:
@@ -55,6 +55,7 @@ This project can be improved by adding:
 ## ▶️ Running the Project
 1 — Clone the repository
 git clone https://meriemerrahmouni06-debug.github.io/.m/
+
 2 — Open the project
 Open the folder and run:
 index.html
