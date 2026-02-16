@@ -10,10 +10,10 @@ The goal of this portfolio is to:
 It is designed with a clean layout, responsive design and easy navigation so visitors can quickly understand who I am and what I do.
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## 🛠 Technologies Used
-HTML5 → structure of the website
-CSS3 → design, layout and responsive behavior
-JavaScript → interactivity (menu, animations, navigation)
-Git & GitHub → version control and hosting
+- HTML5 → structure of the website
+- CSS3 → design, layout and responsive behavior
+- JavaScript → interactivity (menu, animations, navigation)
+- Git & GitHub → version control and hosting
 ----------------------------------------------------------------
 ## ✨ Features
 - Responsive design (mobile & desktop)
@@ -45,12 +45,12 @@ During this project I learned:
 ---------------------------------------------------------------------
 ## 🚀 Future Improvements
 This project can be improved by adding:
-*Project filtering system
-*Animations with advanced JavaScript
-Backend contact form (PHP / Node.js)
-*Database to store messages
-*Better accessibility
-*More advanced responsive design
+* Project filtering system
+* Animations with advanced JavaScript
+* Backend contact form (PHP / Node.js)
+* Database to store messages
+* Better accessibility
+* More advanced responsive design
 ----------------------------------------------------------------------
 ## ▶️ Running the Project
 1 — Clone the repository
