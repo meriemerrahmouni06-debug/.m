@@ -56,10 +56,12 @@ This project can be improved by adding:
 1 — Clone the repository
 git clone https://meriemerrahmouni06-debug.github.io/.m/
 
-2 — Open the project
+2- Open the project
 Open the folder and run:
 index.html
-or simply double click the file in your browser.
+or simply double click the file in your 
+browser.
+
 ---------------------------------------------------------------------
 ##  📹 Video
 
